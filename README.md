@@ -22,20 +22,28 @@
 
 <table>
   <tr>
-    <th>Linguagens</th>
+    <th>Linguagens de programação</th>
     <td>
-      <img alt="Static Badge" src="https://img.shields.io/badge/java-yellow?style=for-the-badge">
-      <img alt="Static Badge" src="https://img.shields.io/badge/sql-blue?style=for-the-badge">
+      <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"/>
+      <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+      <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"/>
+    </td>
+  </tr>
+  <tr>
+    <th>Linguagens de marcação e estilização</th>
+    <td>
+      <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"/>
+      <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"/>
     </td>
   </tr>
   <tr>
     <th>Framework</th>
     <td>
-      <img alt="Static Badge" src="https://img.shields.io/badge/springboot-green?style=for-the-badge">
+      <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" />
     </td>
   </tr>
   <tr>
-    <th>Dependências</th>
+    <th>Bibliotecas e Dependências</th>
     <td>
       <img alt="Static Badge" src="https://img.shields.io/badge/thymeleaf-black?style=for-the-badge">
       <img alt="Static Badge" src="https://img.shields.io/badge/lombok-black?style=for-the-badge">
