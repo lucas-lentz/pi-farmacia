@@ -14,6 +14,12 @@
 
 ## 💻 Utilização
 
+### Como utilizar o programa
+
+<br>
+
+### Exemplos de Utilização
+
 
 
 <br>
@@ -68,31 +74,31 @@
 <table>
   <tr>
     <th>Pacotes</th>
-    <th>Funcionalidade(s)</th>
+    <th width="500px">Funcionalidade(s)</th>
   </tr>
   <tr>
     <th>Entities</th>
-    <td></td>
+    <td>Define as classes que representam as tabelas do banco de dados, incluindo anotações JPA para mapeamento e relacionamentos.</td>
   </tr>
   <tr>
     <th>DTO</th>
-    <td></td>
+    <td>DTO ou Data Transfer Object, utiliza classes que transferem dados entre a camada de apresentação e a camada de serviço, evitando o uso direto das entidades.</td>
   </tr>
   <tr>
     <th>Service</th>
-    <td></td>
+    <td>Contém a lógica de negócio da aplicação. Interage com os repositórios para realizar operações sobre as entidades.</td>
   </tr>
   <tr>
     <th>Repository</th>
-    <td></td>
+    <td>Define interfaces que estendem `JpaRepository` ou `CrudRepository`, facilitando as operações de acesso a dados, como salvar, buscar, atualizar e deletar.</td>
   </tr>
   <tr>
     <th>Controller</th>
-    <td></td>
+    <td>Gerencia as requisições HTTP e as respostas. Mapeia URLs para métodos que manipulam os dados e interagem com os serviços.</td>
   </tr>
   <tr>
     <th>Util</th>
-    <td></td>
+    <td>Contém classes utilitárias que oferecem funcionalidades auxiliares, como manipulação de data, formatação, ou constantes utilizadas em toda a aplicação.</td>
   </tr>
 </table>
 
