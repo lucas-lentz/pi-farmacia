@@ -106,8 +106,8 @@
 
 ## 👥 Autores
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/168394448?v=4" width=115><br><sub>Lorenzo Rover</sub>](https://github.com/lorenzorover) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/168482892?v=4" width=115><br><sub>Lucas Lentz</sub>](https://github.com/lucas-lentz) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/159506794?v=4" width=115><br><sub>Kaio Gredilha Pinheiro</sub>](https://github.com/Kaio-pinheiro) |
-| :---: | :---: | :---: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/168394448?v=4" width=115><br><sub>Lorenzo Rover</sub>](https://github.com/lorenzorover) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/168482892?v=4" width=115><br><sub>Lucas Lentz</sub>](https://github.com/lucas-lentz) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/159506794?v=4" width=115><br><sub>Kaio Gredilha Pinheiro</sub>](https://github.com/Kaio-pinheiro) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/114513409?v=4" width=115><br><sub>João Ribeiro Scharmann</sub>](https://github.com/JRScharmann) |
+| :---: | :---: | :---: | :---: |
 
 <br>
 
