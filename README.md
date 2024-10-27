@@ -2,11 +2,11 @@
 
 ## Índice
 - [Objetivo](#objetivo)
-- [Cadastro de Itens](#cadastro-de-itens)
-- [Configuração Inicial](#configuração-inicial)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Funcionalidades](#funcionalidades)
+- [Utilização](#utilização)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Autores](#autores)
 
 ## 🎯 Objetivo
 
