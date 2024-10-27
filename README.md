@@ -41,7 +41,8 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 ### 3. Pesquisa Dinâmica de Produtos
 
-<strong>Busca por Nome:</strong> O usuário pode buscar produtos dinamicamente pelo nome. A pesquisa deve atualizar a lista de produtos conforme o usuário digita, permitindo encontrar o item rapidamente.<br><br>
+<strong>Busca por Nome:</strong> O usuário pode realizar uma pesquisa dinâmica pelo nome, que inclui produtos, categorias, marcas e departamentos. A lista de resultados deve ser atualizada automaticamente à medida que o usuário digita, facilitando a localização rápida do item desejado.
+<br><br>
 
 
 ### 4. Gerenciamento de Categorias, Marcas e Departamentos
@@ -55,7 +56,9 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 ### 5. Integração Futura: Imagens de Produtos
 <strong>Upload de Imagens:</strong> Futuramente, o sistema terá a capacidade de permitir que o usuário faça upload de imagens dos produtos.<br>
+
 <strong>Visualização de Imagens:</strong> Cada produto poderá exibir sua imagem na listagem, facilitando a identificação visual.<br>
+
 <strong>Sistema de Cadastro de Usuários:</strong> Implementação de um sistema de registro, onde cada usuário poderá criar sua própria conta. Isso permitirá acesso individualizado, segurança aprimorada e personalização dos dados de acesso.<br><br>
 
 
