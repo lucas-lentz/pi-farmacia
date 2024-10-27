@@ -1,12 +1,12 @@
 # Projeto Integrador - Farmácia <br> Aplicação Web
 
 ## Índice
-- [Objetivo](#objetivo)
-- [Funcionalidades](#funcionalidades)
-- [Utilização](#utilização)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Autores](#autores)
+- [Objetivo](#-objetivo)
+- [Funcionalidades](#-funcionalidades)
+- [Utilização](#-utilização)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Autores](#-autores)
 
 ## 🎯 Objetivo
 
