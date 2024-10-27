@@ -12,7 +12,7 @@
 
 ## 🎯 Objetivo
 
-Desenvolver um sistema de gerenciamento de estoque para farmácias, permitindo o cadastro, edição, exclusão e consulta de produtos. A aplicação facilita o controle de itens, organiza produtos por categorias, marcas e departamentos, e inclui uma busca dinâmica para rápida localização de produtos. Futuramente, será possível adicionar imagens aos produtos e criar contas de usuários para maior segurança e personalização de acesso.<br>
+Desenvolver um sistema de gerenciamento de estoque para farmácias, permitindo o cadastro, edição, exclusão e consulta de produtos. A aplicação facilita o controle de itens, organizando produtos, categorias, marcas e departamentos, e inclui uma busca dinâmica para rápida localização de itens nas listas. Futuramente, será possível adicionar imagens aos produtos e criar contas de usuários para maior segurança e personalização de acesso.<br>
 
 <br>
 
