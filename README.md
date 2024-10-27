@@ -7,7 +7,48 @@
 <br>
 
 ## 🧰 Funcionalidades
+### 1. Sistema de Login Único
 
+<strong>Login Fixo:</strong> Um login único com usuário e senha pré-definidos no sistema. Apenas quem conhece as credenciais pode acessar o sistema de cadastro e controle de estoque.<br>
+
+Validação de Login: Sistema de validação de login com mensagens de erro, caso o usuário tente acessar com credenciais incorretas.<br><br>
+
+
+### 2. Cadastro de Itens
+
+<strong>Adicionar Produto:</strong> Permite ao usuário cadastrar um novo produto no sistema, inserindo informações como:
+- Nome do produto
+- Descrição
+- Quantidade em estoque
+- Preço
+- Categoria
+- Marca
+
+<strong>Edição de Produto:</strong> Opção para editar as informações de um produto já cadastrado, alterando qualquer um dos campos, incluindo a quantidade em estoque ou até mesmo mudar a marca ou categoria do mesmo.<br>
+
+<strong>Exclusão de Produto:</strong> Permite ao usuário excluir um produto do sistema. Será solicitado uma confirmação antes de excluir permanentemente.<br>
+
+<strong>Listagem de Produtos:</strong> Exibe todos os produtos cadastrados, organizados por categorias e marcas.<br><br>
+
+
+### 3. Pesquisa Dinâmica de Produtos
+
+<strong>Busca por Nome:</strong> O usuário pode buscar produtos dinamicamente pelo nome. A pesquisa deve atualizar a lista de produtos conforme o usuário digita, permitindo encontrar o item rapidamente.<br><br>
+
+
+### 4. Gerenciamento de Categorias, Marcas e Departamentos
+
+<strong>Cadastro de Categorias:</strong> Permite adicionar novas categorias de produtos, cada uma associada a um departamento específico.<br>
+
+<strong>Cadastro de Marcas:</strong> Permite adicionar novas marcas para os produtos.<br>
+
+<strong>Departamentos:</strong> Cada categoria pertence a um departamento, então é necessário definir quais departamentos existem no sistema.<br><br>
+
+
+### 5. Integração Futura: Imagens de Produtos
+<strong>Upload de Imagens:</strong> Futuramente, o sistema terá a capacidade de permitir que o usuário faça upload de imagens dos produtos.<br>
+<strong>Visualização de Imagens:</strong> Cada produto poderá exibir sua imagem na listagem, facilitando a identificação visual.<br>
+<strong>Sistema de Cadastro de Usuários:</strong> Implementação de um sistema de registro, onde cada usuário poderá criar sua própria conta. Isso permitirá acesso individualizado, segurança aprimorada e personalização dos dados de acesso.<br><br>
 
 
 <br>
