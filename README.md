@@ -1,5 +1,13 @@
 # Projeto Integrador - Farmácia <br> Aplicação Web
 
+## Índice
+- [Objetivo](#objetivo)
+- [Cadastro de Itens](#cadastro-de-itens)
+- [Configuração Inicial](#configuração-inicial)
+- [Uso](#uso)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+
 ## 🎯 Objetivo
 
 
