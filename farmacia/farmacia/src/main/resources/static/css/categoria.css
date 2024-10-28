@@ -1,0 +1,29 @@
+/* Da categoria com modal */
+
+body {
+    background-color: #e9ecef;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.table-responsive {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.btn {
+    margin-left: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
