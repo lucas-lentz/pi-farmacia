@@ -100,6 +100,7 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
     <th>Framework</th>
     <td>
       <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" />
+      <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" />
     </td>
   </tr>
   <tr>
