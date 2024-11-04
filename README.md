@@ -1,4 +1,4 @@
-# Projeto Integrador - Farmácia <br> Aplicação Webaaa
+# Projeto Integrador - Farmácia <br> Aplicação Web
 
 ## Índice
 - [Objetivo](#-objetivo)
