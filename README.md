@@ -97,6 +97,9 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 <strong>1) Criação do Schema no Banco de Dados:</strong> Criar a Database farmacia no gerenciador de banco de dados de sua escolha.<br>
 <strong>2) Rodar a aplicação Spring Boot FarmaciaApplication:</strong> Numa IDE ou compilador de código (IntelliJ IDE, Eclipse IDE, Visual Studio Code), rodar a aplicação.<br>
 <strong>3) Usando a aplicação localmente:</strong> Com a aplicação rodando, o usuário recebe, pelo terminal da IDE ou compilador de código, a senha a ser colocada no Login na seguinte frase "Using generated security password:". Utilizando o usuário user e senha gerada pelo Spring security no end-point http://localhost:8080/, o usuário pode acessar a aplicação. Caso o user e/ou senha estejam errados, o login não é validado, conforme o fluxograma de funcionamento do front-end abaixo.<br>
+<br>
+<strong>Nota:</strong> Caso queira ver um exemplo da aplicação funcionando, você pode baixar o vídeo clicando no link abaixo:<br>
+<a href="https://raw.githubusercontent.com/lucas-lentz/pi-farmacia/main/Projeto%20Web%20Senac%20Farmacia/README%20Files/Programa%20Rodando%20(BOTAR%20NO%20MUDO).mp4">Clique aqui</a>
 
 <br>
 
