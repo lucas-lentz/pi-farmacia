@@ -18,6 +18,7 @@ Desenvolver um sistema de gerenciamento de estoque para farmácias, permitindo o
 <br>
 
 ## 🧰 Funcionalidades
+
 ## 1. Sistema de Login Único
 
 <strong>Login Fixo:</strong> Um login único com usuário e senha pré-definidos no sistema. Apenas quem conhece as credenciais pode acessar o sistema de cadastro e controle de estoque.<br>
@@ -28,7 +29,11 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 ## 🔀 Fluxogramas
 
+## Front-end
 
+<strong>Fluxograma de funcionamento do front-end</strong><br>
+
+![IMG-20241114-WA0004](https://github.com/user-attachments/assets/1d9fd6ea-9f46-492a-9f62-ccf187ed3b09)<br>
 
 <br>
 
@@ -46,14 +51,15 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 <strong>Exclusão de Produto:</strong> Permite ao usuário excluir um produto do sistema. Será solicitado uma confirmação antes de excluir permanentemente.<br>
 
-<strong>Listagem de Produtos:</strong> Exibe todos os produtos cadastrados, organizados por categorias e marcas.<br><br>
+<strong>Listagem de Produtos:</strong> Exibe todos os produtos cadastrados, organizados por categorias e marcas.<br>
 
+<br>
 
 ## 3. Pesquisa Dinâmica de Produtos
 
-<strong>Busca por Nome:</strong> O usuário pode realizar uma pesquisa dinâmica pelo nome, que inclui produtos, categorias, marcas e departamentos. A lista de resultados deve ser atualizada automaticamente à medida que o usuário digita, facilitando a localização rápida do item desejado.
-<br><br>
+<strong>Busca por Nome:</strong> O usuário pode realizar uma pesquisa dinâmica pelo nome, que inclui produtos, categorias, marcas e departamentos. A lista de resultados deve ser atualizada automaticamente à medida que o usuário digita, facilitando a localização rápida do item desejado.<br>
 
+<br>
 
 ## 4. Gerenciamento de Categorias, Marcas e Departamentos
 
@@ -61,8 +67,9 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 <strong>Cadastro de Marcas:</strong> Permite adicionar novas marcas para os produtos.<br>
 
-<strong>Departamentos:</strong> Cada categoria pertence a um departamento, então é necessário definir quais departamentos existem no sistema.<br><br>
+<strong>Departamentos:</strong> Cada categoria pertence a um departamento, então é necessário definir quais departamentos existem no sistema.<br>
 
+<br>
 
 ## 5. Aprimoramentos Futuros
 ### 5.1. Imagens de Produtos
@@ -70,14 +77,17 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 <strong>Visualização de Imagens:</strong> Cada produto poderá exibir sua imagem na listagem, facilitando a identificação visual.<br>
 
-<strong>Sistema de Cadastro de Usuários:</strong> Implementação de um sistema de registro, onde cada usuário poderá criar sua própria conta. Isso permitirá acesso individualizado, segurança aprimorada e personalização dos dados de acesso.<br><br>
+<strong>Sistema de Cadastro de Usuários:</strong> Implementação de um sistema de registro, onde cada usuário poderá criar sua própria conta. Isso permitirá acesso individualizado, segurança aprimorada e personalização dos dados de acesso.<br>
+
+<br>
 
 ### 5.2. Implementação de testes unitários
-<strong>Criação de Classes de Testes:</strong> Futuramente, o sistema terá arquivos de testes para facilitar a manutenção do mesmo.<br><br>
+<strong>Criação de Classes de Testes:</strong> Futuramente, o sistema terá arquivos de testes para facilitar a manutenção do mesmo.<br>
+
+<br>
 
 ### 5.3. Implementação de segurança com Token
-<strong>Utilização do OAuth2RestTemplate:</strong> Futuramente, o sistema será capaz de ser utilizado fora do ambiente de testes, validando apenas as ações de usuários autenticados por meio de chave token, como fazer inserções ou exclusões do sistema.<br><br>
-
+<strong>Utilização do OAuth2RestTemplate:</strong> Futuramente, o sistema será capaz de ser utilizado fora do ambiente de testes, validando apenas as ações de usuários autenticados por meio de chave token, como fazer inserções ou exclusões do sistema.<br>
 
 <br>
 
@@ -92,17 +102,10 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 ### Exemplos de Utilização
 <strong>Tela Inicial do Sistema </strong>
-![Pagina Principal](https://github.com/user-attachments/assets/88d3c7bc-fa91-420f-89ad-aec87774fccb)
-
-<br>
+![Pagina Principal](https://github.com/user-attachments/assets/88d3c7bc-fa91-420f-89ad-aec87774fccb)<br>
 
 <strong>Modal para adição de um produto</strong>
-![Adicionando um produto ao sistema](https://github.com/user-attachments/assets/5c7c04c4-f093-435e-b67f-faa966adae06)
-
-<br>
-
-
-
+![Adicionando um produto ao sistema](https://github.com/user-attachments/assets/5c7c04c4-f093-435e-b67f-faa966adae06)<br>
 
 <br>
 
@@ -188,16 +191,7 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
   </tr>
 </table>
 
-### Front-end
-<strong>Fluxograma de funcionamento do front-end</strong>
-
 <br>
-
-![IMG-20241114-WA0004](https://github.com/user-attachments/assets/1d9fd6ea-9f46-492a-9f62-ccf187ed3b09)
-
-
-<br>
-
 
 ## 👥 Autores
 
