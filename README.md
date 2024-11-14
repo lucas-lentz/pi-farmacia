@@ -17,7 +17,7 @@ Desenvolver um sistema de gerenciamento de estoque para farmácias, permitindo o
 
 <br>
 
-# 🧰 Funcionalidades
+## 🧰 Funcionalidades
 ## 1. Sistema de Login Único
 
 <strong>Login Fixo:</strong> Um login único com usuário e senha pré-definidos no sistema. Apenas quem conhece as credenciais pode acessar o sistema de cadastro e controle de estoque.<br>
@@ -26,7 +26,7 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 <br>
 
-## Fluxogramas
+## 🔀 Fluxogramas
 
 
 
