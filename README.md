@@ -4,6 +4,7 @@
 - [Objetivo](#-objetivo)
 - [Funcionalidades](#-funcionalidades)
 - [Utilização](#-utilização)
+- [Fluxogramas](#-fluxogramas)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Autores](#-autores)
@@ -21,8 +22,15 @@ Desenvolver um sistema de gerenciamento de estoque para farmácias, permitindo o
 
 <strong>Login Fixo:</strong> Um login único com usuário e senha pré-definidos no sistema. Apenas quem conhece as credenciais pode acessar o sistema de cadastro e controle de estoque.<br>
 
-Validação de Login: Sistema de validação de login com mensagens de erro, caso o usuário tente acessar com credenciais incorretas.<br><br>
+Validação de Login: Sistema de validação de login com mensagens de erro, caso o usuário tente acessar com credenciais incorretas.<br>
 
+<br>
+
+# Fluxogramas
+
+
+
+<br>
 
 ## 2. Cadastro de Itens
 
