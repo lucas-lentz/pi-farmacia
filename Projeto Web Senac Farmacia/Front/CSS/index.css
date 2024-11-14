@@ -1,0 +1,39 @@
+/* .container{
+    img{
+        height: 100%;
+        width: 100%;
+        
+    }
+}
+ */
+
+ .card img {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.card-body {
+    height: 100px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.col:hover {
+    transform: translateY(-10px);
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: white !important;
+}
+
+#texto-secundario{
+    font-size: 1.25rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    color: rgb(0, 0, 0) !important;
+    
+}

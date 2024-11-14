@@ -1,0 +1,137 @@
+header{
+    .navbar{
+        background-color: #000000 !important;
+        /* background-color: #00CCDD !important; */
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.modal-content {
+    .modal-header {
+        justify-content: space-between;
+    }
+}
+
+footer{
+    background-color: #000000 !important;
+    margin-top: 0 !important;
+}
+
+.span-footer, .mb-1{
+    color: antiquewhite;
+    font-size:large;
+}
+
+
+/* Add button */
+.mb-4{
+    background-color: #4F75FF !important;
+}
+
+.mb-4:hover {
+    background-color: #2c59fd !important;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    
+}
+
+.in {
+    opacity: 1 !important;
+}
+
+.modal-backdrop{
+    z-index: auto;
+}
+
+h1 {
+    font-family: "Baskerville", "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 3.5rem; 
+    color: #333; 
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+div, table {
+    font-family: "Arial", sans-serif;
+}
+
+.close{
+    border: 0;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.close:hover{
+    background-color: rgb(235, 228, 228);
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+select{
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    padding: 8px;
+}
+
+select:hover{
+    cursor: pointer;
+    background-color: rgb(238, 237, 237);
+}
+
+input:hover{
+    cursor: pointer;
+    background-color: rgb(238, 237, 237);
+}
+
+textarea:hover{
+    cursor: pointer;
+    background-color: rgb(238, 237, 237);
+}
+
+.navLogo{
+    font-family: 'Garacie', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://fonts.cdnfonts.com/css/garacie');
+}
+
+
+
+
+
+
+/* body {
+    background-image: url(../Assets/main-background.pn);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+} */
