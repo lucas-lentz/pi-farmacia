@@ -136,11 +136,10 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
   </tr>
   <tr>
     <th>Bibliotecas e Dependências</th>
-    <td>
+    <td width="500px">
       <img alt="Static Badge" src="https://img.shields.io/badge/spring%20data%20jpa-black?style=for-the-badge">
       <img alt="Static Badge" src="https://img.shields.io/badge/spring%20web-black?style=for-the-badge">
       <img alt="Static Badge" src="https://img.shields.io/badge/spring%20boot%20devtools-black?style=for-the-badge">
-      <br>
       <img alt="Static Badge" src="https://img.shields.io/badge/mysql%20driver-black?style=for-the-badge">
       <img alt="Static Badge" src="https://img.shields.io/badge/lombok-black?style=for-the-badge">
       <img alt="Static Badge" src="https://img.shields.io/badge/thymeleaf-black?style=for-the-badge">
@@ -186,8 +185,12 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
     <td>Gerencia as requisições HTTP e as respostas. Mapeia URLs para métodos que manipulam os dados e interagem com os serviços.</td>
   </tr>
   <tr>
-    <th>Util</th>
-    <td>Contém classes utilitárias que oferecem funcionalidades auxiliares, como manipulação de data, formatação, ou constantes utilizadas em toda a aplicação.</td>
+    <th>Security</th>
+    <td>Contém a configuração de segurança da aplicação, incluindo autenticação e autorização de usuários, proteção contra ataques como CSRF, CORS, e gerenciamento de permissões de acesso às APIs. Geralmente, envolve a configuração do Spring Security, integração com JWT (JSON Web Tokens) ou outras formas de autenticação, além de filtros personalizados de segurança.</td>
+  </tr>
+  <tr>
+    <th>Security</th>
+    <td></td>
   </tr>
 </table>
 
