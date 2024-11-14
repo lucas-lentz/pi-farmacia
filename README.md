@@ -67,6 +67,9 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 ### 5.2. Implementação de testes unitários
 <strong>Criação de Classes de Testes:</strong> Futuramente, o sistema terá arquivos de testes para facilitar a manutenção do mesmo.<br><br>
 
+### 5.3. Implementação de segurança com Token
+<strong>Utilização do OAuth2RestTemplate:</strong> Futuramente, o sistema será capaz de ser utilizado fora do ambiente de testes, validando apenas as ações de usuários autenticados por meio de chave token, como fazer inserções ou exclusões do sistema.<br><br>
+
 
 <br>
 
@@ -75,11 +78,21 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 ### Como utilizar o programa
 <strong>1) Criação do Schema no Banco de Dados:</strong> Criar a Database farmacia no gerenciador de banco de dados de sua escolha.<br>
 <strong>2) Rodar a aplicação Spring Boot FarmaciaApplication:</strong> Numa IDE ou compilador de código (IntelliJ IDE, Eclipse IDE, Visual Studio Code), rodar a aplicação.<br>
-<strong>3) Usar o Live Server:</strong> Subir a aplicação de Front-End usando um compilador, como o Visual Studio Code. A porta do Front-End deve estar num padrão: http://127.0.0.1:5500/Front/HTML/index.html .<br>
+<strong>3) Usando a aplicação localmente:</strong> Com a aplicação rodando, o usuário recebe, pelo terminal da IDE ou compilador de código, a senha a ser colocada no Login na seguinte frase "Using generated security password:". Utilizando o usuário user e senha gerada pelo Spring security no end-point http://localhost:8080/, o usuário pode acessar a aplicação. Caso o user e/ou senha estejam errados, o login não é validado, conforme o fluxograma de funcionamento do front-end abaixo.<br>
 
 <br>
 
 ### Exemplos de Utilização
+<strong>Tela Inicial do Sistema </strong>
+![Pagina Principal](https://github.com/user-attachments/assets/88d3c7bc-fa91-420f-89ad-aec87774fccb)
+
+<br>
+
+<strong>Modal para adição de um produto</strong>
+![Adicionando um produto ao sistema](https://github.com/user-attachments/assets/5c7c04c4-f093-435e-b67f-faa966adae06)
+
+<br>
+
 
 
 
@@ -167,7 +180,16 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
   </tr>
 </table>
 
+### Front-end
+<strong>Fluxograma de funcionamento do front-end</strong>
+
 <br>
+
+![IMG-20241114-WA0004](https://github.com/user-attachments/assets/1d9fd6ea-9f46-492a-9f62-ccf187ed3b09)
+
+
+<br>
+
 
 ## 👥 Autores
 
