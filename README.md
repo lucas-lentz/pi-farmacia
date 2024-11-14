@@ -119,6 +119,9 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
       <br>
       <img alt="Static Badge" src="https://img.shields.io/badge/mysql%20driver-black?style=for-the-badge">
       <img alt="Static Badge" src="https://img.shields.io/badge/lombok-black?style=for-the-badge">
+      <img alt="Static Badge" src="https://img.shields.io/badge/thymeleaf-black?style=for-the-badge">
+      <img alt="Static Badge" src="https://img.shields.io/badge/spring%20security-black?style=for-the-badge">
+      <img alt="Static Badge" src="https://img.shields.io/badge/validation-black?style=for-the-badge">
     </td>
   </tr>
   <tr>
