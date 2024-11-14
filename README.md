@@ -35,6 +35,11 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 ![IMG-20241114-WA0004](https://github.com/user-attachments/assets/1d9fd6ea-9f46-492a-9f62-ccf187ed3b09)<br>
 
+
+<strong>Fluxograma do funcionamento da adição de um produto no Banco de Dados</strong><br>
+![5077a988-3f04-4221-8f3f-e4d7a3d4aac4](https://github.com/user-attachments/assets/3282b12e-ae44-4fe6-9b5c-e8bd9df721ed)<br>
+
+
 <br>
 
 ## 2. Cadastro de Itens
