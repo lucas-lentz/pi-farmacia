@@ -27,22 +27,6 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 <br>
 
-## 🔀 Fluxogramas
-
-## Front-end
-
-<strong>Fluxograma de funcionamento do front-end</strong><br>
-
-![IMG-20241114-WA0004](https://github.com/user-attachments/assets/1d9fd6ea-9f46-492a-9f62-ccf187ed3b09)<br>
-
-
-<strong>Fluxograma do funcionamento da adição de um produto no Banco de Dados</strong><br>
-
-![5077a988-3f04-4221-8f3f-e4d7a3d4aac4](https://github.com/user-attachments/assets/3282b12e-ae44-4fe6-9b5c-e8bd9df721ed)<br>
-
-
-<br>
-
 ## 2. Cadastro de Itens
 
 <strong>Adicionar Produto:</strong> Permite ao usuário cadastrar um produto no sistema, inserindo informações como:
@@ -97,23 +81,45 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 
 <br>
 
+## 🔀 Fluxogramas
+
+## Front-end
+
+<strong>Fluxograma de funcionamento do front-end</strong><br>
+
+![IMG-20241114-WA0004](https://github.com/user-attachments/assets/1d9fd6ea-9f46-492a-9f62-ccf187ed3b09)<br>
+
+<br>
+
+## Back-end
+
+<strong>Fluxograma do funcionamento da adição de um produto no Banco de Dados</strong><br>
+
+![5077a988-3f04-4221-8f3f-e4d7a3d4aac4](https://github.com/user-attachments/assets/3282b12e-ae44-4fe6-9b5c-e8bd9df721ed)<br>
+
+<br>
+
 ## 💻 Utilização
 
 ### Como utilizar o programa
 <strong>1) Criação do Schema no Banco de Dados:</strong> Criar a Database farmacia no gerenciador de banco de dados de sua escolha.<br>
+
 <strong>2) Rodar a aplicação Spring Boot FarmaciaApplication:</strong> Numa IDE ou compilador de código (IntelliJ IDE, Eclipse IDE, Visual Studio Code), rodar a aplicação.<br>
+
 <strong>3) Usando a aplicação localmente:</strong> Com a aplicação rodando, o usuário recebe, pelo terminal da IDE ou compilador de código, a senha a ser colocada no Login na seguinte frase "Using generated security password:". Utilizando o usuário user e senha gerada pelo Spring security no end-point http://localhost:8080/, o usuário pode acessar a aplicação. Caso o user e/ou senha estejam errados, o login não é validado, conforme o fluxograma de funcionamento do front-end abaixo.<br>
-<br>
+
 <strong>Nota:</strong> Caso queira ver um exemplo da aplicação funcionando, você pode baixar o vídeo clicando no link abaixo:<br>
-<a href="https://raw.githubusercontent.com/lucas-lentz/pi-farmacia/main/Projeto%20Web%20Senac%20Farmacia/README%20Files/Programa%20Rodando%20(BOTAR%20NO%20MUDO).mp4">Clique aqui</a>
+<a href="https://raw.githubusercontent.com/lucas-lentz/pi-farmacia/main/Projeto%20Web%20Senac%20Farmacia/README%20Files/Programa%20Rodando%20(BOTAR%20NO%20MUDO).mp4">Clique aqui</a><br>
 
 <br>
 
 ### Exemplos de Utilização
-<strong>Tela Inicial do Sistema </strong>
+<strong>Tela Inicial do Sistema </strong><br><br>
 ![Pagina Principal](https://github.com/user-attachments/assets/88d3c7bc-fa91-420f-89ad-aec87774fccb)<br>
 
-<strong>Modal para adição de um produto</strong>
+<br>
+
+<strong>Modal para adição de um produto</strong><br><br>
 ![Adicionando um produto ao sistema](https://github.com/user-attachments/assets/5c7c04c4-f093-435e-b67f-faa966adae06)<br>
 
 <br>
@@ -196,10 +202,6 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
   <tr>
     <th>Security</th>
     <td>Contém a configuração de segurança da aplicação, incluindo autenticação e autorização de usuários, proteção contra ataques como CSRF, CORS, e gerenciamento de permissões de acesso às APIs. Geralmente, envolve a configuração do Spring Security, integração com JWT (JSON Web Tokens) ou outras formas de autenticação, além de filtros personalizados de segurança.</td>
-  </tr>
-  <tr>
-    <th>Security</th>
-    <td></td>
   </tr>
 </table>
 
