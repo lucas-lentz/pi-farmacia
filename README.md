@@ -173,7 +173,6 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 <br>
 
 ## 📂 Estrutura do Projeto
-### Back-end
 <table>
   <tr>
     <th>Pacotes</th>
@@ -202,6 +201,14 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
   <tr>
     <th>Security</th>
     <td>Contém a configuração de segurança da aplicação, incluindo autenticação e autorização de usuários, proteção contra ataques como CSRF, CORS, e gerenciamento de permissões de acesso às APIs. Geralmente, envolve a configuração do Spring Security, integração com JWT (JSON Web Tokens) ou outras formas de autenticação, além de filtros personalizados de segurança.</td>
+  </tr>
+  <tr>
+    <th>Templates</th>
+    <td>Contém os arquivos HTML que definem a estrutura e a aparência das páginas da aplicação. Esses templates são processados por um motor de templates (ex.: Thymeleaf, FreeMarker ou Mustache), permitindo a inserção de dados dinâmicos vindos do back-end por meio de placeholders.</td>
+  </tr>
+  <tr>
+    <th>Static</th>
+    <td>Armazena os arquivos estáticos da aplicação, como CSS, imagens, ícones e scripts JavaScript. Esses recursos são enviados diretamente para o navegador sem processamento adicional pelo servidor, sendo essenciais para o estilo, comportamento e elementos visuais da aplicação.</td>
   </tr>
 </table>
 
