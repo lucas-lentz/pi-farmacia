@@ -114,14 +114,53 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
 <br>
 
 ### Exemplos de Utilização
+<strong>Entrando no sistema com Login do Spring Security </strong><br><br>
+![Login Security](https://github.com/user-attachments/assets/5e64ecbd-a9ce-449b-9725-c1e35ad37905)<br>
+
+
+<br>
+
 <strong>Tela Inicial do Sistema </strong><br><br>
 ![Pagina Principal](https://github.com/user-attachments/assets/88d3c7bc-fa91-420f-89ad-aec87774fccb)<br>
+
+
+<br>
+
+<strong>Responsividade da Tela Inicial </strong><br><br>
+![Responsivity](https://github.com/user-attachments/assets/ba8ed43c-9b96-468d-b7e7-1247a0865abe)
+
+
+<br>
+
+<strong>Pesquisa Dinamica de Categorias</strong><br><br>
+![Pesquisa Dinamica](https://github.com/user-attachments/assets/ea95a9c9-cbf5-4ed3-af5d-c46762f4c106)<br>
+
+
+<br>
+
+<strong>Responsividade da pagina de Produtos</strong><br><br>
+![Responsivity Product](https://github.com/user-attachments/assets/95ec9600-b1a9-4e9d-b204-5e2a39d30c24)
+
 
 <br>
 
 <strong>Modal para adição de um produto</strong><br><br>
 ![Adicionando um produto ao sistema](https://github.com/user-attachments/assets/5c7c04c4-f093-435e-b67f-faa966adae06)<br>
 
+
+<br>
+
+<strong>POST de um Produto</strong><br><br>
+![POST](https://github.com/user-attachments/assets/d9d6bcd7-ce44-4db9-9131-8413a3105a39)<br>
+
+
+<br>
+
+<strong>PUT de um Produto</strong><br><br>
+![PUT](https://github.com/user-attachments/assets/be24c46f-2b7f-40c7-b27b-a97904e41c17)
+
+
+<br>
 <br>
 
 ## 📚 Tecnologias Utilizadas
