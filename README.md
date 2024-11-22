@@ -207,7 +207,19 @@ Validação de Login: Sistema de validação de login com mensagens de erro, cas
       <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"/>
     </td>
   </tr>
-</table>
+</table><br>
+
+<br>
+
+Todas as bibliotecas mencionadas na tabela são do Spring framework. Abaixo está uma breve explicação de cada uma: <br>
+- <strong>Spring Data JPA</strong>: Facilita o trabalho com bancos de dados relacionais através de mapeamento objeto-relacional (ORM). Permite executar consultas e gerenciar entidades de forma simplificada;
+- <strong>Spring Web</strong>: Oferece suporte para criar APIs REST e aplicações web. Simplifica a criação de endpoints HTTP, permitindo lidar facilmente com requisições e respostas;
+- <strong>Spring Boot Devtools</strong>: Uma ferramenta de desenvolvimento que permite atualização automática (hot-reload) da aplicação quando alterações são feitas no código;
+- <strong>MySQL Driver</strong>: Driver JDBC utilizado para conectar a aplicação ao banco de dados MySQL;
+- <strong>Lombok</strong>: Reduz o código repetitivo em classes Java, gerando automaticamente métodos como getters, setters e construtores através de anotações;
+- <strong>Thymeleaf</strong>: Um motor de templates que permite criar interfaces web dinâmicas utilizando HTML com lógica embutida;
+- <strong>Spring Security</strong>: Fornece suporte para autenticação e autorização, garantindo que apenas usuários autorizados possam acessar os recursos da aplicação;
+- <strong>Validation</strong>: Oferece suporte para validação de dados, permitindo verificar entradas de usuários e dados antes de salvar ou processar.
 
 <br>
 
