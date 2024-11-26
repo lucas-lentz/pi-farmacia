@@ -273,4 +273,4 @@ Todas as bibliotecas mencionadas na tabela são do Spring framework. Abaixo est�
 <br>
 
 ### 📆 Release date: <br>
-nov/2024
+```nov/2024```
