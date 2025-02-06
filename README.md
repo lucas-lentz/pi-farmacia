@@ -1,5 +1,11 @@
 # Projeto Integrador - Farmácia <br> Aplicação Web
 
+![Language](https://img.shields.io/badge/java-black?label=language&labelColor=grey&color=%234caf50)
+![Project Version](https://img.shields.io/badge/1.0-black?label=project%20version&labelColor=grey&color=%2365a535)
+![Last Commit](https://img.shields.io/github/last-commit/lucas-lentz/pi-farmacia?color=%2364973d)
+![Repository Size](https://img.shields.io/github/repo-size/lucas-lentz/pi-farmacia?color=%2364a432)
+![License](https://img.shields.io/github/license/lucas-lentz/pi-farmacia?color=%234caf50)
+
 ## Índice
 - [Objetivo](#-objetivo)
 - [Funcionalidades](#-funcionalidades)
