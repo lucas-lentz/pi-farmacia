@@ -7,6 +7,7 @@
 ![License](https://img.shields.io/github/license/lucas-lentz/pi-farmacia?color=%234caf50)
 
 ## Índice
+
 - [Objetivo](#-objetivo)
 - [Funcionalidades](#-funcionalidades)
 - [Utilização](#-utilização)
@@ -16,6 +17,151 @@
 - [Autores](#-autores)
 
 <br>
+
+## Estrutura/Tree
+
+```
+├── LICENSE
+├── Projeto Web Senac Farmacia
+    ├── .vscode
+    │   └── settings.json
+    ├── Back
+    │   └── farmacia
+    │   │   ├── .idea
+    │   │       ├── .gitignore
+    │   │       ├── RestfulApiTool-Environment-Cache.xml
+    │   │       ├── compiler.xml
+    │   │       ├── encodings.xml
+    │   │       ├── farmacia.iml
+    │   │       ├── git_toolbox_blame.xml
+    │   │       ├── jarRepositories.xml
+    │   │       ├── jpa-buddy.xml
+    │   │       ├── misc.xml
+    │   │       └── modules.xml
+    │   │   └── farmacia
+    │   │       ├── .gitignore
+    │   │       ├── .mvn
+    │   │           └── wrapper
+    │   │           │   └── maven-wrapper.properties
+    │   │       ├── mvnw
+    │   │       ├── mvnw.cmd
+    │   │       ├── pom.xml
+    │   │       └── src
+    │   │           ├── main
+    │   │               ├── java
+    │   │               │   └── com
+    │   │               │   │   └── farmacia
+    │   │               │   │       └── farmacia
+    │   │               │   │           ├── FarmaciaApplication.java
+    │   │               │   │           ├── controller
+    │   │               │   │               ├── CategoriaController.java
+    │   │               │   │               ├── ControllerStatusApplication.java
+    │   │               │   │               ├── DepartamentoController.java
+    │   │               │   │               ├── LoginController.java
+    │   │               │   │               ├── MarcaController.java
+    │   │               │   │               ├── ProdutoController.java
+    │   │               │   │               └── ViewController.java
+    │   │               │   │           ├── dto
+    │   │               │   │               ├── CategoriaDTO.java
+    │   │               │   │               ├── DepartamentoDTO.java
+    │   │               │   │               ├── MarcaDTO.java
+    │   │               │   │               └── ProdutoDTO.java
+    │   │               │   │           ├── entities
+    │   │               │   │               ├── Categoria.java
+    │   │               │   │               ├── Departamento.java
+    │   │               │   │               ├── Marca.java
+    │   │               │   │               └── Produto.java
+    │   │               │   │           ├── repository
+    │   │               │   │               ├── CategoriaRepository.java
+    │   │               │   │               ├── DepartamentoRepository.java
+    │   │               │   │               ├── MarcaRepository.java
+    │   │               │   │               └── ProdutoRepository.java
+    │   │               │   │           ├── security
+    │   │               │   │               └── SecurityConfig.java
+    │   │               │   │           ├── service
+    │   │               │   │               ├── CategoriaService.java
+    │   │               │   │               ├── DepartamentoService.java
+    │   │               │   │               ├── MarcaService.java
+    │   │               │   │               └── ProdutoService.java
+    │   │               │   │           └── util
+    │   │               │   │               ├── CategoriaMapper.java
+    │   │               │   │               ├── DepartamentoMapper.java
+    │   │               │   │               ├── MarcaMapper.java
+    │   │               │   │               ├── ProdutoMapper.java
+    │   │               │   │               └── WebConfig.java
+    │   │               └── resources
+    │   │               │   ├── application.properties
+    │   │               │   ├── static
+    │   │               │       ├── Assets
+    │   │               │       │   ├── categorias.png
+    │   │               │       │   ├── close-image.png
+    │   │               │       │   ├── departamento.png
+    │   │               │       │   ├── marcas.jpg
+    │   │               │       │   └── produtos.jpeg
+    │   │               │       ├── CSS
+    │   │               │       │   ├── crudStyles.css
+    │   │               │       │   ├── globalStyles.css
+    │   │               │       │   ├── index.css
+    │   │               │       │   ├── login.css
+    │   │               │       │   └── produto.css
+    │   │               │       └── Javascript
+    │   │               │       │   ├── categoria.js
+    │   │               │       │   ├── departamento.js
+    │   │               │       │   ├── marca.js
+    │   │               │       │   └── produto.js
+    │   │               │   └── templates
+    │   │               │       ├── categoria.html
+    │   │               │       ├── departamento.html
+    │   │               │       ├── index.html
+    │   │               │       ├── login.html
+    │   │               │       ├── marca.html
+    │   │               │       └── produto.html
+    │   │           └── test
+    │   │               └── java
+    │   │                   └── com
+    │   │                       └── farmacia
+    │   │                           └── farmacia
+    │   │                               └── FarmaciaApplicationTests.java
+    ├── Docs
+    │   └── Assets do Projeto
+    │   │   ├── Adicionando um produto ao sistema.png
+    │   │   ├── Fluxograma Front.jpg
+    │   │   ├── Fluxograma de adição de um produto.jpg
+    │   │   └── Pagina Principal.png
+    ├── Front
+    │   ├── Assets
+    │   │   ├── categorias.png
+    │   │   ├── close-image.png
+    │   │   ├── departamento.png
+    │   │   ├── main-background.png
+    │   │   ├── marcas.jpg
+    │   │   └── produtos.jpeg
+    │   ├── CSS
+    │   │   ├── crudStyles.css
+    │   │   ├── globalStyles.css
+    │   │   ├── index.css
+    │   │   └── produto.css
+    │   ├── HTML
+    │   │   ├── categoria.html
+    │   │   ├── departamento.html
+    │   │   ├── index.html
+    │   │   ├── marca.html
+    │   │   └── produto.html
+    │   ├── Javascript
+    │   │   ├── categoria.js
+    │   │   ├── departamento.js
+    │   │   ├── marca.js
+    │   │   └── produto.js
+    │   └── Readme.txt
+    ├── Modelagem do BD
+    │   ├── Modelagem Web.mwb
+    │   ├── Modelagem Web.mwb.bak
+    │   ├── modelagem-bd-071124.PNG
+    │   └── script-db.sql
+    └── README Files
+    │   └── Programa Rodando (BOTAR NO MUDO).mp4
+└── README.md
+```
 
 ## 🎯 Objetivo
 
